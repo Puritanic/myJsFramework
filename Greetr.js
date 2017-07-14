@@ -83,6 +83,7 @@
         setLang: function (language) { 
             // set the language
             this.language = language;
+            // validate
             this.validate();
             // make chainable
             return this;
